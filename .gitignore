@@ -1,0 +1,43 @@
+tmp/
+release/
+debug/
+
+*.Release
+*.Debug
+
+.*
+!.gitignore
+*~
+
+# KDE
+.directory
+
+*.log
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+CMakeCache.txt
+CMakeFiles
+Makefile*
+cmake_install.cmake
+install_manifest.txt
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+*.dll
